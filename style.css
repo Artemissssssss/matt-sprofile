@@ -114,3 +114,17 @@ body{
 body{
     background-image: url(img/bggif.gif)
 }
+
+@media(max-width: 700px)
+{
+    .wrapper{
+        width: 100%;
+    }
+    .wrapper .left{
+    padding: 30px 10px;
+    }
+    .wrapper .right .info_data .data p,
+    .wrapper .right .about_data .data p{
+    font-size: 10px;
+    }
+} 
